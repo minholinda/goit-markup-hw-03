@@ -68,8 +68,7 @@ img {
 /*-----HEADER------ */
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 0;
     border-bottom: 1px solid #E7E9FC;
 }
 
@@ -85,6 +84,8 @@ img {
 }
 
 .logo-dark {
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -118,11 +119,15 @@ img {
 }
 
 .header-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-subtitle-color);
+    display: inline;
+    display: block;
 }
 
 .header-link:hover,
@@ -138,11 +143,15 @@ img {
 }
 
 .address-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
+    display: inline;
+    display: block;
 }
 
 .address-link:hover,
@@ -391,6 +400,7 @@ img {
 .filter-btn:hover,
 .filter-btn:focus {
     background-color: var(--hover-color);
+    border-color: var(--hover-color);
 }
 
 .portfolio-list {
